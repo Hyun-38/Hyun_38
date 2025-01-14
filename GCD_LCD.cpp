@@ -1,27 +1,27 @@
 #include <iostream>
 #include <string>
-#include <algorithm>
+#include <vector>
 
 using namespace std;
 
-long long GCD(long long a, long long b) // 최대공약수
-{
-	if (b == 0) {
-		return a;
-	}
-	else {
-		return GCD(b, a % b);
-	}
+long long GCD(long long a, long long b) {
+    if (b == 0) {
+        return a;
+    } else {
+        return GCD(b, a % b);
+    }
 }
 
-long long LCM(long long a, long long b) // 최소공배수
-{
-	return a * b / GCD(a, b);
-}
+int main() {
+    string s;
+    cin >> s;
 
-int main(){
+    size_t colon_pos = s.find(':');
+    int anum = stoi(s.substr(0, colon_pos));
+    int bnum = stoi(s.substr(colon_pos + 1));
 
-  long long a,b;
-  cin>>a>>b;
-  cout<< LCM(a,b)<<"\n";
+    long long gcd = GCD(anum, bnum);
+    cout << anum / gcd << ":" << bnum / gcd << endl;
+
+    return 0;
 }
