@@ -5,6 +5,8 @@
     "xlocale": "cpp",
     "xstring": "cpp",
     "ostream": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "iostream": "cpp",
+    "*.txt": "cpp"
   }
 }
