@@ -8,6 +8,7 @@
     "vector": "cpp",
     "iostream": "cpp",
     "*.txt": "cpp",
-    "numeric": "cpp"
+    "numeric": "cpp",
+    "cmath": "cpp"
   }
 }
