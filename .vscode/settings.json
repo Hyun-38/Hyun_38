@@ -9,6 +9,7 @@
     "iostream": "cpp",
     "*.txt": "cpp",
     "numeric": "cpp",
-    "cmath": "cpp"
+    "cmath": "cpp",
+    "utility": "cpp"
   }
 }
