@@ -10,6 +10,8 @@
     "*.txt": "cpp",
     "numeric": "cpp",
     "cmath": "cpp",
-    "utility": "cpp"
-  }
+    "utility": "cpp",
+    "queue": "cpp"
+  },
+  "C_Cpp.errorSquiggles": "disabled"
 }
