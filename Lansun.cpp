@@ -13,5 +13,4 @@ int main()
     cin >> num;
     v.push_back(num);
   }
-  
 }
