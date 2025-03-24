@@ -11,7 +11,9 @@
     "numeric": "cpp",
     "cmath": "cpp",
     "utility": "cpp",
-    "queue": "cpp"
+    "queue": "cpp",
+    "map": "cpp",
+    "iosfwd": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
