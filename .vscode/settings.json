@@ -13,7 +13,8 @@
     "utility": "cpp",
     "queue": "cpp",
     "map": "cpp",
-    "iosfwd": "cpp"
+    "iosfwd": "cpp",
+    "stack": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
